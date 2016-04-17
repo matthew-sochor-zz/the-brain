@@ -1,0 +1,167 @@
+{
+  "intents": [
+    {
+      "intent": "takeNote",
+      "slots": [
+        {
+          "name": "x",
+          "type": "MESSAGE_TYPE"
+        },
+        {
+          "name": "xx",
+          "type": "MESSAGE_TYPE"
+        },
+        {
+          "name": "xxx",
+          "type": "MESSAGE_TYPE"
+        },
+        {
+          "name": "xxxx",
+          "type": "MESSAGE_TYPE"
+        },
+        {
+          "name": "xxxxx",
+          "type": "MESSAGE_TYPE"
+        },
+        {
+          "name": "xxxxxx",
+          "type": "MESSAGE_TYPE"
+        },
+        {
+          "name": "xxxxxxx",
+          "type": "MESSAGE_TYPE"
+        },
+        {
+          "name": "xxxxxxxx",
+          "type": "MESSAGE_TYPE"
+        },
+        {
+          "name": "xxxxxxxxx",
+          "type": "MESSAGE_TYPE"
+        },
+        {
+          "name": "xxxxxxxxxx",
+          "type": "MESSAGE_TYPE"
+        },
+        {
+          "name": "xxxxxxxxxxx",
+          "type": "MESSAGE_TYPE"
+        },
+        {
+          "name": "xxxxxxxxxxxx",
+          "type": "MESSAGE_TYPE"
+        },
+        {
+          "name": "xxxxxxxxxxxxx",
+          "type": "MESSAGE_TYPE"
+        },
+        {
+          "name": "xxxxxxxxxxxxxx",
+          "type": "MESSAGE_TYPE"
+        },
+        {
+          "name": "xxxxxxxxxxxxxxx",
+          "type": "MESSAGE_TYPE"
+        },
+        {
+          "name": "xxxxxxxxxxxxxxxx",
+          "type": "MESSAGE_TYPE"
+        },
+        {
+          "name": "xxxxxxxxxxxxxxxxx",
+          "type": "MESSAGE_TYPE"
+        },
+        {
+          "name": "xxxxxxxxxxxxxxxxxx",
+          "type": "MESSAGE_TYPE"
+        },
+        {
+          "name": "xxxxxxxxxxxxxxxxxxx",
+          "type": "MESSAGE_TYPE"
+        },
+        {
+          "name": "xxxxxxxxxxxxxxxxxxxx",
+          "type": "MESSAGE_TYPE"
+        }
+      ]
+    },
+    {
+      "intent": "findNote",
+      "slots": [
+        {
+          "name": "x",
+          "type": "MESSAGE_TYPE"
+        },
+        {
+          "name": "xx",
+          "type": "MESSAGE_TYPE"
+        },
+        {
+          "name": "xxx",
+          "type": "MESSAGE_TYPE"
+        },
+        {
+          "name": "xxxx",
+          "type": "MESSAGE_TYPE"
+        },
+        {
+          "name": "xxxxx",
+          "type": "MESSAGE_TYPE"
+        },
+        {
+          "name": "xxxxxx",
+          "type": "MESSAGE_TYPE"
+        },
+        {
+          "name": "xxxxxxx",
+          "type": "MESSAGE_TYPE"
+        },
+        {
+          "name": "xxxxxxxx",
+          "type": "MESSAGE_TYPE"
+        },
+        {
+          "name": "xxxxxxxxx",
+          "type": "MESSAGE_TYPE"
+        },
+        {
+          "name": "xxxxxxxxxx",
+          "type": "MESSAGE_TYPE"
+        }
+      ]
+    },
+    {
+      "intent": "findStub"
+    },
+    {
+      "intent": "takeStub"
+    },
+    {
+      "intent": "getTime"
+    },
+    {
+      "intent": "getNext"
+    },
+    {
+      "intent": "getPrevious"
+    },
+    {
+      "intent": "save"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    }
+  ]
+}

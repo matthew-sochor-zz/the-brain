@@ -1,0 +1,89 @@
+takeNote remember {x} 
+takeNote remember {x} {xx} 
+takeNote remember {x} {xx} {xxx}
+takeNote remember {x} {xx} {xxx} {xxxx}
+takeNote remember {x} {xx} {xxx} {xxxx} {xxxxx}
+takeNote remember {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx}
+takeNote remember {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx}
+takeNote remember {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx}
+takeNote remember {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx} {xxxxxxxxx}
+takeNote remember {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx} {xxxxxxxxx} {xxxxxxxxxx}
+takeNote remember {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx} {xxxxxxxxx} {xxxxxxxxxx} {xxxxxxxxxxx} 
+takeNote remember {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx} {xxxxxxxxx} {xxxxxxxxxx} {xxxxxxxxxxx} {xxxxxxxxxxxx} 
+takeNote remember {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx} {xxxxxxxxx} {xxxxxxxxxx} {xxxxxxxxxxx} {xxxxxxxxxxxx} {xxxxxxxxxxxxx}
+takeNote remember {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx} {xxxxxxxxx} {xxxxxxxxxx} {xxxxxxxxxxx} {xxxxxxxxxxxx} {xxxxxxxxxxxxx} {xxxxxxxxxxxxxx}
+takeNote remember {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx} {xxxxxxxxx} {xxxxxxxxxx} {xxxxxxxxxxx} {xxxxxxxxxxxx} {xxxxxxxxxxxxx} {xxxxxxxxxxxxxx} {xxxxxxxxxxxxxxx}
+takeNote remember {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx} {xxxxxxxxx} {xxxxxxxxxx} {xxxxxxxxxxx} {xxxxxxxxxxxx} {xxxxxxxxxxxxx} {xxxxxxxxxxxxxx} {xxxxxxxxxxxxxxx} {xxxxxxxxxxxxxxxx}
+takeNote remember {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx} {xxxxxxxxx} {xxxxxxxxxx} {xxxxxxxxxxx} {xxxxxxxxxxxx} {xxxxxxxxxxxxx} {xxxxxxxxxxxxxx} {xxxxxxxxxxxxxxx} {xxxxxxxxxxxxxxxx} {xxxxxxxxxxxxxxxxx}
+takeNote remember {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx} {xxxxxxxxx} {xxxxxxxxxx} {xxxxxxxxxxx} {xxxxxxxxxxxx} {xxxxxxxxxxxxx} {xxxxxxxxxxxxxx} {xxxxxxxxxxxxxxx} {xxxxxxxxxxxxxxxx} {xxxxxxxxxxxxxxxxx} {xxxxxxxxxxxxxxxxxx}
+takeNote remember {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx} {xxxxxxxxx} {xxxxxxxxxx} {xxxxxxxxxxx} {xxxxxxxxxxxx} {xxxxxxxxxxxxx} {xxxxxxxxxxxxxx} {xxxxxxxxxxxxxxx} {xxxxxxxxxxxxxxxx} {xxxxxxxxxxxxxxxxx} {xxxxxxxxxxxxxxxxxx} {xxxxxxxxxxxxxxxxxxx}
+takeNote remember {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx} {xxxxxxxxx} {xxxxxxxxxx} {xxxxxxxxxxx} {xxxxxxxxxxxx} {xxxxxxxxxxxxx} {xxxxxxxxxxxxxx} {xxxxxxxxxxxxxxx} {xxxxxxxxxxxxxxxx} {xxxxxxxxxxxxxxxxx} {xxxxxxxxxxxxxxxxxx} {xxxxxxxxxxxxxxxxxxx} {xxxxxxxxxxxxxxxxxxxx} 
+takeNote to remember {x} 
+takeNote to remember {x} {xx} 
+takeNote to remember {x} {xx} {xxx}
+takeNote to remember {x} {xx} {xxx} {xxxx}
+takeNote to remember {x} {xx} {xxx} {xxxx} {xxxxx}
+takeNote to remember {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx}
+takeNote to remember {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx}
+takeNote to remember {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx}
+takeNote to remember {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx} {xxxxxxxxx}
+takeNote to remember {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx} {xxxxxxxxx} {xxxxxxxxxx}
+takeNote to remember {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx} {xxxxxxxxx} {xxxxxxxxxx} {xxxxxxxxxxx} 
+takeNote to remember {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx} {xxxxxxxxx} {xxxxxxxxxx} {xxxxxxxxxxx} {xxxxxxxxxxxx} 
+takeNote to remember {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx} {xxxxxxxxx} {xxxxxxxxxx} {xxxxxxxxxxx} {xxxxxxxxxxxx} {xxxxxxxxxxxxx}
+takeNote to remember {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx} {xxxxxxxxx} {xxxxxxxxxx} {xxxxxxxxxxx} {xxxxxxxxxxxx} {xxxxxxxxxxxxx} {xxxxxxxxxxxxxx}
+takeNote to remember {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx} {xxxxxxxxx} {xxxxxxxxxx} {xxxxxxxxxxx} {xxxxxxxxxxxx} {xxxxxxxxxxxxx} {xxxxxxxxxxxxxx} {xxxxxxxxxxxxxxx}
+takeNote to remember {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx} {xxxxxxxxx} {xxxxxxxxxx} {xxxxxxxxxxx} {xxxxxxxxxxxx} {xxxxxxxxxxxxx} {xxxxxxxxxxxxxx} {xxxxxxxxxxxxxxx} {xxxxxxxxxxxxxxxx}
+takeNote to remember {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx} {xxxxxxxxx} {xxxxxxxxxx} {xxxxxxxxxxx} {xxxxxxxxxxxx} {xxxxxxxxxxxxx} {xxxxxxxxxxxxxx} {xxxxxxxxxxxxxxx} {xxxxxxxxxxxxxxxx} {xxxxxxxxxxxxxxxxx}
+takeNote to remember {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx} {xxxxxxxxx} {xxxxxxxxxx} {xxxxxxxxxxx} {xxxxxxxxxxxx} {xxxxxxxxxxxxx} {xxxxxxxxxxxxxx} {xxxxxxxxxxxxxxx} {xxxxxxxxxxxxxxxx} {xxxxxxxxxxxxxxxxx} {xxxxxxxxxxxxxxxxxx}
+takeNote to remember {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx} {xxxxxxxxx} {xxxxxxxxxx} {xxxxxxxxxxx} {xxxxxxxxxxxx} {xxxxxxxxxxxxx} {xxxxxxxxxxxxxx} {xxxxxxxxxxxxxxx} {xxxxxxxxxxxxxxxx} {xxxxxxxxxxxxxxxxx} {xxxxxxxxxxxxxxxxxx} {xxxxxxxxxxxxxxxxxxx}
+takeNote to remember {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx} {xxxxxxxxx} {xxxxxxxxxx} {xxxxxxxxxxx} {xxxxxxxxxxxx} {xxxxxxxxxxxxx} {xxxxxxxxxxxxxx} {xxxxxxxxxxxxxxx} {xxxxxxxxxxxxxxxx} {xxxxxxxxxxxxxxxxx} {xxxxxxxxxxxxxxxxxx} {xxxxxxxxxxxxxxxxxxx} {xxxxxxxxxxxxxxxxxxxx} 
+findStub to find a note
+findStub to find something
+findStub to find
+findStub to tell me something
+takeStub remember
+takeStub to remember
+getTime time
+getTime at what time was that
+getTime when
+getTime when was that
+getTime get the time
+getNext get the next note
+getNext next note
+getNext next
+getNext get next
+getNext more
+getPrevious get the previous note
+getPrevious previous note
+getPrevious previous
+getPrevious get the previous
+getPrevious get previous
+getPrevious go back
+getPrevious back
+save save that
+save save
+save save to my device
+save send that to my device
+save send that to me
+save write that down
+findNote find {x} 
+findNote find {x} {xx} 
+findNote find {x} {xx} {xxx} 
+findNote find {x} {xx} {xxx} {xxxx} 
+findNote find {x} {xx} {xxx} {xxxx} {xxxxx} 
+findNote find {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} 
+findNote find {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} 
+findNote find {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx}
+findNote find {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx} {xxxxxxxxx}
+findNote find {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx} {xxxxxxxxx} {xxxxxxxxxx}
+findNote to find {x} 
+findNote to find {x} {xx} 
+findNote to find {x} {xx} {xxx} 
+findNote to find {x} {xx} {xxx} {xxxx} 
+findNote to find {x} {xx} {xxx} {xxxx} {xxxxx} 
+findNote to find {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} 
+findNote to find {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} 
+findNote to find {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx}
+findNote to find {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx} {xxxxxxxxx}
+findNote to find {x} {xx} {xxx} {xxxx} {xxxxx} {xxxxxx} {xxxxxxx} {xxxxxxxx} {xxxxxxxxx} {xxxxxxxxxx}
