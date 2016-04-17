@@ -1,6 +1,6 @@
 #The Brain
 
-![The brain logo](logo/thebrain-big.png)
+![The brain logo](logo/thebrain-small.png)
 
 This is the various components of an Alexa app to take some notes.  What kind of notes you ask?  I don't know, what do you want to remember? That'd be a good thing to have Alexa remember.  Or write it down on paper.  But this comes with a timestamp which is kind of cool.
 
@@ -10,20 +10,28 @@ The brain is backed by an elasticsearch database.  Notes go in based on Echo use
 
 ## How does it work?
 
-You: Alexa ask the brain
-Alexa: What's up?
-You: Remember that I turned off my hose
-Alexa: I will remember that I turned off my hose
+*You*: Alexa ask the brain
 
-<later, the water company has overcharged you>
+*Alexa*: What's up?
 
-You: Alexa ask the brain to find hose
-Alexa: I remember that I turned off my hose. Anything else?
-You: What time was that?
-Alexa: This note was recorded at November 26, 2016 at 1pm.
-You: Send that to my phone.
+*You*: Remember that I turned off my hose
 
-<look at your phone>
+*Alexa*: I will remember that I turned off my hose
+
+**Later, the water company has overcharged you**
+
+*You*: Alexa ask the brain to find hose
+
+*Alexa*: I remember that I turned off my hose. Anything else?
+
+*You*: What time was that?
+
+*Alexa*: This note was recorded at November 26, 2016 at 1pm.
+
+*You*: Send that to my phone.
+
+**You look at your phone**
+
 Holy crap, its your note!  On your phone!  And the billing period started on November 25th! Evidence!! 
 
 ## Why did you make this?
