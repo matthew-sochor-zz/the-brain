@@ -84,7 +84,7 @@ class the_brain_helper:
             if response['hits']['total'] > 1:
                 speech_output += " Do you want the next note?"
             else:
-                speech_output += = " Anything else?"
+                speech_output += " Anything else?"
 
         else:
             speech_output = "I do not remember that, would you like to find something else?"
