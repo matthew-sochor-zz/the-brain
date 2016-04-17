@@ -2,10 +2,7 @@ from __future__ import print_function
 from the_brain_helper import *
 
 # Secrets I don't want to share with GitHub, sorry jerks
-endpoint = 'endpoint'
 app_id = 'app_id'
-index = 'index'
-mapping = 'mapping'
 
 def lambda_handler(event, context):
     print("event.session.application.applicationId=" +
