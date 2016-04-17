@@ -1,16 +1,11 @@
 from __future__ import print_function
-import urllib2
-import json
-from datetime import datetime
 from the_brain_helper import *
-from response_helper import *
-from elasticsearch_helper import *
 
 # Secrets I don't want to share with GitHub, sorry jerks
-endpoint = 'endpoint url to elasticsearch goes here'
-app_id = 'app id goes here'
-index = 'I am an index'
-mapping = 'I am a mapping'
+endpoint = 'endpoint'
+app_id = 'app_id'
+index = 'index'
+mapping = 'mapping'
 
 def lambda_handler(event, context):
     print("event.session.application.applicationId=" +
