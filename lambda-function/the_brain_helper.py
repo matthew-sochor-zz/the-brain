@@ -51,6 +51,7 @@ def save_session(session):
         speech_output = "Lets not get ahead of ourselves, can I find or take a note for you?"
         reprompt_text = "Whats cooking, good looking?"
         should_end_session = False
+        card = False
 
     return build_response(session_attributes, speech_output, should_end_session, card = card)
     
