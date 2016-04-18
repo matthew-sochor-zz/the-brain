@@ -1,0 +1,68 @@
+Alexa is listening|Active session|Prefix (if not listening)|Postfix|Did she find it?|Answer|Now is she listening?|Now is there a session?
+No|No|Alexa ask the brain|||Whats up?|yes|
+No|No|Alexa ask the brain|Amazon.YesIntent||Whats up?|yes|
+No|No|Alexa ask the brain|Amazon.HelpIntent||Help message|yes|
+No|No|Alexa ask the brain|Amazon.CancelIntent||Cancel message|no|
+No|No|Alexa ask the brain|Amazon.StopIntent||Cancel message|no|
+No|No|Alexa ask the brain|Amazon.NoIntent||Cancel message|no|
+No|No|Alexa ask the brain|find||Amazon error: I can only help you with one skill at a time|no|
+No|No|Alexa ask the brain|to find||Find help message|yes|
+No|No|Alexa ask the brain|find <message>|No|I do not remember that, would you like to find something else?|yes|No
+||||yes, one thing|I remember <message>|yes|Yes
+||||yes, N things|I remember N things, first is: <message>|yes|Yes
+No|No|Alexa ask the brain|remember||Remember help message|yes|
+No|No|Alexa ask the brain|to remember||Remember help message|yes|
+No|No|Alexa ask the brain|remember something||Remember help message|yes|
+No|No|Alexa ask the brain|remember <message>||I will remember <message>|no|
+No|No|Alexa ask the brain|save||Lets not get ahead of ourselves message|yes|
+No|No|Alexa ask the brain|send to my device||Lets not get ahead of ourselves message|yes|
+No|No|Alexa ask the brain|next||Lets not get ahead of ourselves message|yes|
+No|No|Alexa ask the brain|more||Lets not get ahead of ourselves message|yes|
+No|No|Alexa ask the brain|previous||Lets not get ahead of ourselves message|yes|
+No|No|Alexa ask the brain|last||Lets not get ahead of ourselves message|yes|
+No|No|Alexa ask the brain|date||Lets not get ahead of ourselves message|yes|
+No|No|Alexa ask the brain|when was that||Lets not get ahead of ourselves message|yes|
+Yes|No||Amazon.YesIntent||Whats up?|yes|
+Yes|No||Amazon.HelpIntent||Help message|yes|
+Yes|No||Amazon.CancelIntent||Cancel message|no|
+Yes|No||Amazon.StopIntent||Cancel message|no|
+Yes|No||Amazon.NoIntent||Cancel message|no|
+Yes|No||find||Amazon error: I can only help you with one skill at a time|no|
+Yes|No||to find||Find help message|yes|
+Yes|No||find <message>|No|I do not remember that, would you like to find something else?|yes|No
+||||yes, one thing|I remember <message>|yes|Yes
+||||yes, N things|I remember N things, first is: <message>|yes|Yes
+Yes|No||remember||Remember help message|yes|
+Yes|No||to remember||Remember help message|yes|
+Yes|No||remember something||Remember help message|yes|
+Yes|No||remember <message>||I will remember <message>|no|
+Yes|No||save||Lets not get ahead of ourselves message|yes|
+Yes|No||send to my device||Lets not get ahead of ourselves message|yes|
+Yes|No||next||Lets not get ahead of ourselves message|yes|
+Yes|No||more||Lets not get ahead of ourselves message|yes|
+Yes|No||previous||Lets not get ahead of ourselves message|yes|
+Yes|No||last||Lets not get ahead of ourselves message|yes|
+Yes|No||date||Lets not get ahead of ourselves message|yes|
+Yes|No||when was that||Lets not get ahead of ourselves message|yes|
+Yes|Yes||Amazon.YesIntent||Whats up?|yes|
+Yes|Yes||Amazon.HelpIntent||Help message|yes|
+Yes|Yes||Amazon.CancelIntent||Cancel message|no|
+Yes|Yes||Amazon.StopIntent||Cancel message|no|
+Yes|Yes||Amazon.NoIntent||Cancel message|no|
+Yes|Yes||find||Amazon error: I can only help you with one skill at a time|no|
+Yes|Yes||to find||Find help message|yes|
+Yes|Yes||find <message>|No|I do not remember that, would you like to find something else?|yes|No
+||||yes, one thing|I remember <message>|yes|Yes
+||||yes, N things|I remember N things, first is: <message>|yes|Yes
+Yes|Yes||remember||Remember help message|yes|
+Yes|Yes||to remember||Remember help message|yes|
+Yes|Yes||remember something||Remember help message|yes|
+Yes|Yes||remember <message>||I will remember <message>|no|
+Yes|Yes||save||My vast and uncanny memory → card is sent to alexa app|yes|
+Yes|Yes||send to my device||My vast and uncanny memory → card is sent to alexa app|yes|
+Yes|Yes||next||If last thing, do nothing.  If not last memory, read next memory|yes|
+Yes|Yes||more||If last thing, do nothing.  If not last memory, read next memory|yes|
+Yes|Yes||previous||If first thing, do nothing.  If not first memory, read previous memory|yes|
+Yes|Yes||last||If first thing, do nothing.  If not first memory, read previous memory|yes|
+Yes|Yes||date||Read date of note|yes|
+Yes|Yes||when was that||Read date of note|yes|
