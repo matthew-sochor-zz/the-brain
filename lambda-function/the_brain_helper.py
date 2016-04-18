@@ -47,12 +47,11 @@ def save_session(session):
             reprompt_text = "Do you need anything else?"
             should_end_session = False
     else:
+        session_attributes = {}
         speech_output = "Lets not get ahead of ourselves, can I find or take a note for you?"
         reprompt_text = "Whats cooking, good looking?"
         should_end_session = False
 
-
-        
     return build_response(session_attributes, speech_output, should_end_session, card = card)
     
 def take_stub():
@@ -139,6 +138,7 @@ def get_time(intent, session):
         reprompt_text = "Do you need anything else?"
         should_end_session = False
     else:
+        session_attributes = {}
         speech_output = "Lets not get ahead of ourselves, can I find or take a note for you?"
         reprompt_text = "Whats cooking, good looking?"
         should_end_session = False
@@ -161,6 +161,7 @@ def get_next(intent, session):
         reprompt_text = "Do you need anything else?"
         should_end_session = False
     else:
+        session_attributes = {}
         speech_output = "Lets not get ahead of ourselves, can I find or take a note for you?"
         reprompt_text = "Whats cooking, good looking?"
         should_end_session = False
@@ -185,6 +186,7 @@ def get_previous(intent, session):
         reprompt_text = "Do you need anything else?"
         should_end_session = False
     else:
+        session_attributes = {}
         speech_output = "Lets not get ahead of ourselves, can I find or take a note for you?"
         reprompt_text = "Whats cooking, good looking?"
         should_end_session = False
