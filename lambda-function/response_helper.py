@@ -6,7 +6,7 @@ def build_speech(output):
         }
     }
 
-def build_card(output, timestamp,title='Bernie remembered something', ):
+def build_card(output, timestamp, title='The Brain remembers'):
     return {
         'type': 'Simple',
         'title': title,
