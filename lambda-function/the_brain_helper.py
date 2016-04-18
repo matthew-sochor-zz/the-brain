@@ -1,7 +1,14 @@
-from response_helper import build_response
+from response_helper import build_response, build_card
 from elasticsearch_helper import *
 
 from datetime import datetime
+
+def get_unknown_response():
+    session_attributes = {}
+    speech_output = "I'm sorry, I'm not sure what you want me to do.  Feel free to ask for help."
+    reprompt_text = "Would you like me to remember a note or find a note?"
+    should_end_session = False
+    return build_response(session_attributes, speech_output, should_end_session, reprompt_text = reprompt_text)
 
 def get_welcome_response():
 
@@ -19,31 +26,38 @@ def end_session():
     return build_response(session_attributes, speech_output, should_end_session)
     
 def save_session(session):
+
     session_attributes = session['attributes']
-    response = session_attributes['response']
-    i = session_attributes['index']
-    output = response['hits']['hits'][0]['_source']['text']
-    in_format = '%Y-%m-%dT%H:%M:%SZ'
-    out_format = '%B %d, %Y at %I %p'
-    timestamp = response['hits']['hits'][i]['_source']['timestamp']
-    timestamp_obj = datetime.strptime(timestamp, in_format)
-    human_time = datetime.strftime(timestamp_obj, out_format)
-    card = build_card(output, human_time)
-    speech_output = "My vast and uncanny memory has been sent to you across the aether."
-    should_end_session = True
+
+    if 'response' in session_attributes:
+        response = session_attributes['response']
+        i = session_attributes['index']
+        output = response['hits']['hits'][0]['_source']['text']
+        in_format = '%Y-%m-%dT%H:%M:%SZ'
+        out_format = '%B %d, %Y at %I %p'
+        timestamp = response['hits']['hits'][i]['_source']['timestamp']
+        timestamp_obj = datetime.strptime(timestamp, in_format)
+        human_time = datetime.strftime(timestamp_obj, out_format)
+        card = build_card(output, human_time)
+        speech_output = "My vast and uncanny memory has been sent to you across the aether."
+        should_end_session = True
+    else:
+        speech_output = "I haven't looked for anything yet.  What else can I do for you?"
+        reprompt_text = "Do you need anything else?"
+        should_end_session = False
     return build_response(session_attributes, speech_output, should_end_session, card = card)
     
 def take_stub():
     session_attributes = {}
-    speech_output = "What do you want me to remember?"
-    reprompt_text = "To remember something say remember, followed by what your message."
+    speech_output = "To remember something say remember, followed by what your message."
+    reprompt_text = "What do you want me to remember?"
     should_end_session = False
     return build_response(session_attributes, speech_output, should_end_session, reprompt_text = reprompt_text)
     
 def find_stub():
     session_attributes = {}
-    speech_output = "Whats do you want me to find?"
-    reprompt_text = "To find something say find, followed by what you are looking for."
+    speech_output = "To find something say find, followed by what you are looking for."
+    reprompt_text = "Whats do you want me to find?"
     should_end_session = False
     return build_response(session_attributes, speech_output, should_end_session, reprompt_text = reprompt_text)
 
@@ -83,12 +97,11 @@ def find_note(intent, session):
         
         session_attributes['response']=response
         session_attributes['index']=0
-        
-        speech_output = "I remember " + response['hits']['hits'][0]['_source']['text'] + "."
+        response_text = response['hits']['hits'][0]['_source']['text']
         if response['hits']['total'] > 1:
-            speech_output += " Do you want the next note?"
+            speech_output = "I remember " + str(response['hits']['total']) + " things, first is: " + response_text+ ".  Anything else?"
         else:
-            speech_output += " Anything else?"
+            speech_output = "I remember " + response_text+ ".  Anything else?"
 
     else:
         speech_output = "I do not remember that, would you like to find something else?"
@@ -112,7 +125,7 @@ def get_time(intent, session):
         speech_output = "This note was recorded at "+ human_time + ". Anything else?"
         
     else:
-        speech_output = "I haven't looked for anything yet.  Would you like to find something?"
+        speech_output = "I haven't looked for anything yet.  What else can I do for you?"
     
     reprompt_text = "Do you need anything else?"
     should_end_session = False
@@ -129,7 +142,7 @@ def get_next(intent, session):
             session_attributes['index'] = i
             speech_output = "Next is " + response['hits']['hits'][i]['_source']['text'] + ". Anything else?"
     else:
-        speech_output = "I haven't looked for anything yet.  Would you like to find something?"
+        speech_output = "I haven't looked for anything yet.  What else can I do for you?"
     
     reprompt_text = "Do you need anything else?"
     should_end_session = False
@@ -147,7 +160,7 @@ def get_previous(intent, session):
             speech_output = "Before that is " + response['hits']['hits'][i]['_source']['text'] + ". Anything else?"
         
     else:
-        speech_output = "I haven't looked for anything yet.  Would you like to find something?"
+        speech_output = "I haven't looked for anything yet.  What else can I do for you?"
     
     reprompt_text = "Do you need anything else?"
     should_end_session = False
