@@ -72,7 +72,7 @@ def on_intent(intent_request, session):
         or (intent_name == "AMAZON.CancelIntent")):
         return end_session()
     else:
-        raise ValueError("Invalid intent")
+        return get_unknown_response()
 
 def on_session_ended(session_ended_request, session):
     """ Called when the user ends the session.
