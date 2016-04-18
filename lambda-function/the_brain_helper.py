@@ -1,5 +1,6 @@
 from response_helper import build_response, build_card
 from elasticsearch_helper import *
+from random import random
 
 from datetime import datetime
 
@@ -21,7 +22,8 @@ def get_welcome_response():
 def end_session():
 
     session_attributes = {}
-    speech_output = "Later Alligator"
+    sign_offs = ["Later Alligator", "Peach out, cub scout", "Adios amigo", "You got it, dude", "Ciao", "See ya", "Bye bye"]
+    speech_output = sign_offs[int(random()*(len(sign_offs)-1))]
     should_end_session = True
     return build_response(session_attributes, speech_output, should_end_session)
     
