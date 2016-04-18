@@ -1,10 +1,11 @@
 import json
 import urllib2
+from secrets import get_endpoint, get_index, get_mapping
 
 # Secrets I don't want to share with GitHub, sorry jerks
-endpoint = 'endpoint'
-index = 'index'
-mapping = 'mapping'
+endpoint = get_endpoint()
+index = get_index()
+mapping = get_mapping()
 
 def elasticsearch_post(user, text, timestamp):
     data = {

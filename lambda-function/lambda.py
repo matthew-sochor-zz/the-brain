@@ -1,14 +1,13 @@
 from __future__ import print_function
 from the_brain_helper import *
-
+from secrets import get_app_id
 # Secrets I don't want to share with GitHub, sorry jerks
-app_id = 'app_id'
 
 def lambda_handler(event, context):
     print("event.session.application.applicationId=" +
           event['session']['application']['applicationId'])
 
-    if (event['session']['application']['applicationId'] != app_id):
+    if (event['session']['application']['applicationId'] != get_app_id()):
         raise ValueError("Invalid Application ID")
     if event['session']['new']:
         on_session_started({'requestId': event['request']['requestId']},
