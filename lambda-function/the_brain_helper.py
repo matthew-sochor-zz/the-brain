@@ -22,7 +22,7 @@ def get_welcome_response():
 def end_session():
 
     session_attributes = {}
-    sign_offs = ["Later Alligator", "Peach out, cub scout", "Adios amigo", "You got it, dude", "Ciao", "See ya", "Bye bye"]
+    sign_offs = ["Ciao", "Later Alligator", "Peace out cub scout", "Adios amigo", "You got it dude", "See ya", "Bye bye", "Sayonara"]
     speech_output = sign_offs[int(random()*(len(sign_offs)-1))]
     should_end_session = True
     return build_response(session_attributes, speech_output, should_end_session)
